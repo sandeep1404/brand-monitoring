@@ -33,4 +33,5 @@ write_report_task:
     - A detailed analysis of the usage of {brand_name} in the post with bullet points. You can cover things like the tone of the post,
     the sentiment towards the brand, whether it received a ton of engagement (if mentioned in the post), whether it was a paid partnership, etc.
     Maintain a verbal communicative tone in each of the bullet points but don't be too verbose.
+    IMPORTANT: Return only valid JSON matching the XReport schema with no explanations, no markdown fences, and no <think> or analysis text.
   agent: writer_agent

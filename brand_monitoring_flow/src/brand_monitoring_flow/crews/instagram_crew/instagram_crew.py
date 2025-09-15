@@ -15,7 +15,7 @@ class InstagramReport(BaseModel):
                                                               "The size of the output list will be the same as the number of posts in the input data.")
                                                               )
 
-llm = LLM(model="ollama/deepseek-r1:1.5b")
+llm = LLM(model="bedrock/anthropic.claude-3-5-sonnet-20241022-v2:0")
 
 @CrewBase
 class InstagramCrew:

@@ -14,7 +14,7 @@ class YoutubeReport(BaseModel):
                                                               )
 
 
-llm = LLM(model="ollama/deepseek-r1:1.5b")
+llm = LLM(model="bedrock/anthropic.claude-3-5-sonnet-20241022-v2:0")
 
 
 @CrewBase
